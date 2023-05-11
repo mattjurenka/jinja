@@ -1,0 +1,7 @@
+project: jinja
+target: from_string
+duration: 300
+
+cmds:
+  - cmd: python3 /jinja/fuzz/fuzz_targets/from_string.py
+    libfuzzer: true
