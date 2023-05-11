@@ -1,0 +1,7 @@
+project: jinja
+target: compile_expression
+duration: 300
+
+cmds:
+  - cmd: python3 /jinja/fuzz/fuzz_targets/compile_expression.py
+    libfuzzer: true
